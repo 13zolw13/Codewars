@@ -60,3 +60,24 @@ function numberToString(num) {
 function multiply(a, b){
  return a * b
 }
+
+// Correct the mistakes of the character recognition software https://www.codewars.com/kata/577bd026df78c19bca0002c0
+
+function correct(string){
+
+  string= string.replace(/5/g,'S');
+  
+ string= string.replace(/0/g,'O');
+ 
+  string= string.replace(/1/g,'I');
+  return string;
+}
+// Century From Year https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
+function century(year) {
+ 
+  let value= Math.floor(year/100);
+ 
+  if (year/100 >value) {return value+1;} 
+  else return value;
+  
+}
