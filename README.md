@@ -1,4 +1,4 @@
 # Codewars
-https://www.codewars.com/users/13zolw13/badges/large
+<img src=https://www.codewars.com/users/13zolw13/badges/large> </img>
 
-More solutions  https://www.codewars.com/users/13zolw13
+All my kata solutions at <a href="https://www.codewars.com/users/13zolw13">  Codewars</a>
